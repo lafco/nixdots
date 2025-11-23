@@ -8,7 +8,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
   networking.hostName = "nxs"; # Define your hostname.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
-  time.timeZone = "America/SaoPaulo";
+  time.timeZone = "America/Sao_Paulo";
 
   services = {
     displayManager.ly.enable = true;
@@ -19,7 +19,7 @@
       enable = true;
       autoRepeatDelay = 200;
       autoRepeatInterval = 35;
-      windowManager.oxwm.enable = true;
+      windowManager.qtile.enable = true;
     };
   };
 
@@ -34,6 +34,8 @@
   programs = {
     firefox.enable = true;
     hyprland.enable = true;
+    niri.enable = true;
+    steam.enable = true;
   };
 
   environment.systemPackages = with pkgs; [
@@ -46,6 +48,8 @@
     eza
     bat
     btop
+    niri
+    xwayland-satellite
   ];
 
   hardware = {

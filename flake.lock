@@ -74,33 +74,12 @@
         "type": "indirect"
       }
     },
-    "oxwm": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1763707622,
-        "narHash": "sha256-busK1/6nWvyMZ9rUsKBcrCnllqmkceDu57VpELWMJpc=",
-        "owner": "tonybanters",
-        "repo": "oxwm",
-        "rev": "b23ed69c4c1f9fd5270b5abe70b928f518d859a2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "tonybanters",
-        "repo": "oxwm",
-        "type": "github"
-      }
-    },
     "root": {
       "inputs": {
         "firefox-addons": "firefox-addons",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
-        "nixpkgs-unstable": "nixpkgs-unstable",
-        "oxwm": "oxwm"
+        "nixpkgs-unstable": "nixpkgs-unstable"
       }
     }
   },
